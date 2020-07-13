@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors"); // Allow for cross origin resource sharing
 const mongoose = require("mongoose");
 const URL = "process.env.CONNECTION_STRING";
-const userRouter = require("routes/userRoutes");
+const userRouter = require("routes/userRouter");
 
 const app = express(); // Create express server instance
 
