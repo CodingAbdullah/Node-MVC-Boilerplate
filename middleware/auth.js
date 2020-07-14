@@ -1,4 +1,4 @@
-const require("express");
+const express = require("express");
 const jwt = require("jsonwebtoken");
 
 // Export this middleware to be used for protected routes.. (login and so on)
